@@ -10,7 +10,8 @@ def test_one():
     print("One More linse")
     a = 10
     b = 20
-    print(a+b)
+    c = 40
+    print(a+b+c)
 
     for i in range(1,100):
         print(i)
