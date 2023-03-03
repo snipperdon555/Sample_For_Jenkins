@@ -28,3 +28,8 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'pytest'
+
+- task: PythonScript@0
+  inputs:
+    scriptSource: 'filePath'
+    scriptPath: 'https://github.com/snipperdon555/Sample_For_Jenkins/blob/master/test_sample.py'
